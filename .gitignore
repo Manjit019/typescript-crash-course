@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Compiled output
+dist/
+
+# Temp tsrun config files — ADDED
+*.temp.tsconfig.json
+
+# Environment variables
+.env
+.env.local
+
+# VS Code settings (optional, some people include this)
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db

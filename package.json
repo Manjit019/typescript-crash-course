@@ -1,0 +1,24 @@
+{
+  "name": "typescript-crash-course",
+  "version": "1.0.0",
+  "description": "TypeScript crash course from basic to advanced",
+  "main": "index.js",
+  "bin" : {
+   "tsrun" : "./compile-run-clean.js" 
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "tsrun" : "node ./compile-run-clean.js"
+  },
+  "keywords": ["typescript", "typescript-practice", "typescript-notes", "typescript-examples","typescript-crash-course"],
+  "author": "Manjit Kumar",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020", // What JS version to compile to
+    "module": "CommonJS", // Module system (Node uses CommonJS)
+    "lib": ["ES2020", "DOM"], // Built-in type definitions to include
+
+    /* Output */
+    "outDir": "./dist", // Where compiled JS files go
+    "rootDir": "./", // Where source TS files are
+
+    /* Strict Type Checking */
+    "strict": true, // Enable all strict checks
+    "noImplicitAny": true, // Disallow implicit any types
+    "strictNullChecks": true, // Null and undefined must be handled
+    "strictFunctionTypes": true, // Strict function parameter checking
+
+    /* Code Quality */
+    "noUnusedLocals": true, // Error on unused variables
+    "noUnusedParameters": true, // Error on unused parameters
+    "noImplicitReturns": true, // All code paths must return a value
+
+    /* Module Resolution */
+    "esModuleInterop": true, // Better compatibility with CommonJS
+    "skipLibCheck": true, // Skip type checking of .d.ts files
+    "forceConsistentCasingInFileNames": true // Consistent file name casing
+  },
+  "include": [
+    "**/*.ts" // Include all .ts files in project
+  ],
+  "exclude": [
+    "node_modules", // Never compile node_modules
+    "dist" // Never recompile output
+  ]
+}
