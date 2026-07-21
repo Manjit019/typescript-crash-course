@@ -111,49 +111,6 @@ In Stock: Yes
 
 ---
 
-## 📁 Structure
-
-Each folder = one related topic
-
-Each folder contains:
-- `notes.md` — theory and key concepts
-- `.ts` files — practical examples with inline comments
-
-```
-typescript-crash-course/
-│
-├── 00-setup/
-│   ├── notes.md
-│   ├── what-is-typescript.ts
-│   ├── type-inference-intro.ts
-│   ├── compiling.ts
-│   └── tsconfig-explained.ts
-│
-├── 01-basics/
-├── 02-type-system/
-├── 03-interfaces-and-types/
-├── 04-functions-deep-dive/
-├── 05-objects-classes-oop/
-├── 06-generics/
-├── 07-advanced-types/
-├── 08-modules-and-project-structure/
-├── 09-async-and-ts/
-├── 10-dom-and-browser-ts/
-├── 11-ts-with-node/
-├── 12-real-world-patterns/
-├── 13-testing-and-tooling/
-├── 14-best-practices/
-├── 15-mini-projects/
-│
-├── compile-run-clean.js     
-├── package.json
-├── tsconfig.json
-├── .gitignore
-└── README.md
-```
-
----
-
 ## ⚙️ Commands
 
 ```bash
